@@ -18,6 +18,9 @@
   "homepage": "https://github.com/tellanad/mearn#readme",
   "dependencies": {
     "@angular/cli": "^7.3.1",
+    "@angular/compiler-cli": "^7.2.4",
+    "jasmine": "^3.3.1",
+    "karma": "^4.0.0",
     "npm": "^6.7.0",
     "react-dom": "^16.8.1"
   },
