@@ -1,0 +1,22 @@
+{
+  "name": "mearnstack",
+  "version": "1.0.0",
+  "description": "fullstack Mean and Mern",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tellanad/mearn.git"
+  },
+  "author": "Sreenath Tella",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tellanad/mearn/issues"
+  },
+  "homepage": "https://github.com/tellanad/mearn#readme",
+  "dependencies": {
+    "npm": "^6.7.0"
+  }
+}
