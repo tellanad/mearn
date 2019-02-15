@@ -2,9 +2,18 @@
   "name": "mearnstack",
   "version": "1.0.0",
   "description": "fullstack Mean and Mern",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon app.js",
+    "linti":"eslint .",
+    "start": "ng build && node app.js",
+    "serve": "ng serve",
+    "local-build": "ng build --watch",
+    "build": "ng build --prod",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "postinstall": "ng build --aot -prod"
   },
   "repository": {
     "type": "git",
@@ -22,16 +31,20 @@
     "@angular/common": "^7.2.4",
     "@angular/compiler-cli": "^7.2.4",
     "@angular/core": "^7.2.4",
+    "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "jasmine": "^3.3.1",
-    "karma": "^4.0.0",
+    "mongodb-client": "0.0.1",
     "npm": "^6.8.0",
     "react": "^16.8.2",
     "react-dom": "^16.8.1",
+    "soap": "^0.26.0",
     "tslint": "^5.12.1",
     "typescript": "^3.3.3"
   },
   "devDependencies": {
+    "eslint": "^5.13.0",
+    "jasmine": "^3.3.1",
+    "karma": "^4.0.0",
     "nodemon": "^1.18.10",
     "webpack": "^4.29.3",
     "webpack-dev-server": "^3.1.14"
